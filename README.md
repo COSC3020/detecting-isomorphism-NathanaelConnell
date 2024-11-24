@@ -15,3 +15,9 @@ the function and run automatically when you commit through a GitHub action.
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
+
+I had help creating the test code from online and other github assignments. I also had help from my brother with the logic of isomorphism.
+
+The worst case big Theta time complexity of my algorithm would be big theta (n! n^2 log n). The reason it would be this bad is if for n nodes the max number of permutations must be checked, and if the adjacensy list are dense maxing the time cost of sorting neighbors. I used brute force method for generating all permustations for node mappings, and each permutation is checked which adds the process of sorting and comparing.
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
